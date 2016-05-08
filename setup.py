@@ -10,6 +10,7 @@ setup(name='django-%s-editor' % app_name,
         package_data = {app_name: ['static/wmd/*.js', 'static/wmd/*.css', 'static/wmd/images/*.png']},
         author = 'Joshua Partogi',
         author_email = 'joshua.partogi@gmail.com',
+        description='Pluggable wmd editor wrapper for django apps using SO wmd branch',
         url = 'http://github.com/marcuswhybrow/django-wmd-editor/',
         download_url = 'http://github.com/marcuswhybrow/django-wmd-editor/archives/master/',
 
